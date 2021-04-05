@@ -1,7 +1,5 @@
 package Exemplo;
-
 import java.util.Scanner;
-
 public class DistanciaRaiz {
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
@@ -24,12 +22,8 @@ public class DistanciaRaiz {
 		P2 = Math.pow(P2, 2);
 		
 		D = Math.pow(P1 + P2, 0.5);
-		
-		System.out.printf("primeira equação: "+P1+" segunda equação: "+P2+" e a raiz quadrada é: %.2f",D);
-		
-		
-		
-		
+	
+		System.out.printf("primeira equação: "+P1+" segunda equação: "+P2+" e a raiz quadrada é: %.2f",D);	
 	}
 
 }
