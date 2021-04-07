@@ -24,7 +24,7 @@ public class Exercicio6 {
 			
 		}while(num1 != 0);
 		media = multiplosParaSomar / contador;
-		System.out.printf("\nDos números digitador %.2f eram multiplos de 3\n",contador);
+		System.out.printf("\nDos números digitados %.2f eram multiplos de 3\n",contador);
 		System.out.printf("A média dos números digitados que são multiplos de 3 é de %.2f",media);
 	}
 }
